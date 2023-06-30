@@ -20,33 +20,29 @@ export default function Navbar(props: INavbarProps) {
         <nav className="hidden md:block ">
           <ul className="flex space-x-6">
             <li>
-              <Link href="#" className="hover:opacity-80">
+              <Link href="/" className="hover:opacity-80">
                 Главная
               </Link>
             </li>
             <li>
-              <Link href="#" className="hover:opacity-80">
+              <Link href="/favourites" className="hover:opacity-80">
                 Избранное
               </Link>
             </li>
             <li>
-              <Link href="#" className="hover:opacity-80">
+              <Link href="profile" className="hover:opacity-80">
                 Добавленные
               </Link>
             </li>
+
             <li>
-              <Link href="#" className="hover:opacity-80">
-                Профиль
-              </Link>
-            </li>
-            <li>
-              <Link href="#" className="hover:opacity-80">
+              <Link href="about" className="hover:opacity-80">
                 О нас
               </Link>
             </li>
             <li>
-              <Link href="#" className="pl-4 hover:opacity-80">
-                Выйти
+              <Link href="profile" className="hover:opacity-80">
+                Профиль
               </Link>
             </li>
           </ul>
