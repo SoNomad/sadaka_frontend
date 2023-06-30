@@ -30,18 +30,18 @@ export default function Navbar(props: INavbarProps) {
               </Link>
             </li>
             <li>
-              <Link href="profile" className="hover:opacity-80">
+              <Link href="/profile" className="hover:opacity-80">
                 Добавленные
               </Link>
             </li>
 
             <li>
-              <Link href="about" className="hover:opacity-80">
+              <Link href="/about" className="hover:opacity-80">
                 О нас
               </Link>
             </li>
             <li>
-              <Link href="profile" className="hover:opacity-80">
+              <Link href="/profile" className="hover:opacity-80">
                 Профиль
               </Link>
             </li>
