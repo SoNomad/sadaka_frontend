@@ -2,7 +2,7 @@ import Search from "@/components/SearchInput";
 import { Post } from "@/types/type";
 import PostCard from "@/components/PostCard";
 import Image from "next/image";
-import { Button } from "@/ui/Button/Button";
+import { Button, FavoriteIcon } from "@/ui";
 
 // async function getPosts() {
 //   const res = await fetch("http://localhost:4000/Product", {
@@ -22,6 +22,8 @@ export default async function Home() {
         <Button variant="primary">
           Позвонить
         </Button>
+
+        <FavoriteIcon />
 
         {/* <section className="md:grid md:justify-center">
           <div className="mt-10 md:grid md:grid-cols-2 lg:grid-cols-3 md:grid-rows-4 md:gap-3">
