@@ -1,0 +1,27 @@
+.ProductCard {
+  @apply max-w-[40%] md:max-w-xs;
+}
+
+.image_wrapper {
+  @apply rounded-2xl overflow-hidden h-80;
+}
+
+.image {
+  @apply rounded-sm h-full object-cover;
+}
+
+.info {
+  @apply flex items-center justify-between p-3 break-words;
+}
+
+.details {
+  @apply flex flex-col max-w-[60%];
+}
+
+.name {
+  @apply text-xl;
+}
+
+.date {
+  @apply mt-2;
+}
