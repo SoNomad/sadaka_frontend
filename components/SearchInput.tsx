@@ -19,7 +19,7 @@ export default function Search(props: ISearchProps) {
       <input
         value={searchQwery}
         onChange={(e) => setSearchQwery(e.target.value)}
-        className="md:w-full px-5 py-3 text-zinc-200 border-1 border-neutral-500 bg-gray-200 rounded-xl my-5 focus:outline-slate-500 transition-all duration-500 "
+        className="md:w-full px-5 py-3 text-black border-1 border-neutral-500 bg-gray-200 rounded-xl my-5 focus:outline-slate-500 transition-all duration-500 "
         placeholder="поиск"
       />
     </form>
