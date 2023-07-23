@@ -2,7 +2,7 @@ import Search from "@/components/SearchInput";
 import { Post } from "@/types/type";
 import PostCard from "@/components/PostCard";
 import Image from "next/image";
-import { Button, FavoriteIcon } from "@/ui";
+import { Button, FavoriteIcon, Paper } from "@/ui";
 import { ProductCard } from "./(posts)/ui/ProductCard/ProductCard";
 
 // async function getPosts() {
@@ -29,8 +29,11 @@ export default async function Home() {
           <ProductCard />
           <ProductCard />
           <ProductCard />
-          <ProductCard />
         </div>
+
+        <Paper>
+          hello
+        </Paper>
 
         {/* <section className="md:grid md:justify-center">
           <div className="mt-10 md:grid md:grid-cols-2 lg:grid-cols-3 md:grid-rows-4 md:gap-3">
