@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={(inter.className, "bg-slate-400 font-Montserrat Alternates")}>
+      <body className={(inter.className, "font-Montserrat Alternates text-white")}>
         <Navbar />
         {children}
       </body>
